@@ -1,3 +1,15 @@
+body {
+  background-color: #333; /* Dark grey */
+  color: white;          /* Ensure text is visible */
+  margin: 0;
+  font-family: Arial, sans-serif; /* Optional: Set font */
+}
+
+main {
+  padding: 20px; /* Optional: Add padding to the main content */
+}
+
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
