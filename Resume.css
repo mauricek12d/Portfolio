@@ -1,0 +1,42 @@
+.resume {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.resume h2 {
+    margin-top: 80px; /* Add enough space to account for the navbar's height */
+    text-align: left; /* Aligns the text to the left */
+    margin-left: 5px; /* Optional: Adds some padding from the left edge */
+    font-size: 24px; /* Increases the font size */
+    font-weight: bold;
+}
+
+.experience {
+    margin-top: 100px;
+}
+
+.job {
+    margin-bottom: 20px;
+}
+
+.job h4 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.job p {
+    margin: 5px 0;
+    font-style: italic;
+}
+
+.job ul {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.job ul li {
+    margin-bottom: 5px;
+}
