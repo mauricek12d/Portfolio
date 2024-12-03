@@ -6,25 +6,25 @@ const projects = [
         title: "Employee Database",
         description: "The Employee Database is a structured system designed to manage information about employees created using TypeScript.",
         repo: "https://github.com/mauricek12d/Employee-Database",
-        image: "/public/images/pexels-rebrand-cities-581004-1367269.jpg",
+        image: "/images/pexels-rebrand-cities-581004-1367269.jpg",
     },
     {
         title: "Vehicle-Builder",
         description: "The Vehicle-Builder is a structured system designed to manage information about vehicles created using TypeScript.",
         repo: "https://github.com/mauricek12d/Vehicle-Builder",
-        image: "/public/images/Benz.jpg",
+        image: "/images/Benz.jpg",
     },
     {
         title: "README Generator",
         description: "The README Generator is a structured system designed to manage information about projects created using JavaScript.",
         repo: "https://github.com/mauricek12d/README-Generator",
-        image : "/public/images/Screen Shot ReadMe.png",
+        image : "/images/Screen Shot ReadMe.png",
     },
     {
         title: "Apollo Greek Taverna",
         description: "A website for a fictional restaurant created using HTML, CSS, and JavaScript.",
         repo: "https://github.com/mauricek12d/apollogreektavern",
-        image: "/public/images/Apollo Greek.jpg",
+        image: "/images/Apollo Greek.jpg",
     },
 ];
 

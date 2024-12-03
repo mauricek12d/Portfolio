@@ -1,7 +1,12 @@
 .about-me {
-    max-width: 95%;
-    overflow-x: hidden;
-    padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Vertically centers the content */
+    align-items: center;     /* Horizontally centers the content */
+    height: 100vh;           /* Make the section fill the viewport height */
+    text-align: center;      /* Centers the text */
+    background-color: #333;  /* Optional: Add a background color */
+    color: white;   
 }
 
 .about-me-text {
@@ -9,6 +14,7 @@
     white-space: normal;
     overflow-wrap: break-word;
     padding-left: 10px;
+    text-align: center;
 }
 
 .profile-pic {
@@ -16,5 +22,8 @@
     height: 300px;
     border-radius: 50%;
     object-fit: cover;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 50px;
+    margin-top: -250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    display: inline-block;
 }
