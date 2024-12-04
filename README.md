@@ -1,50 +1,68 @@
-# React + TypeScript + Vite
+# Maurice Zuniga - Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my portfolio! Here you can find a curated selection of my work, showcasing my expertise in front-end and back-end development, as well as my journey in creating impactful digital solutions.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 About Me
+Hi, I'm Maurice Zuniga, a passionate developer with experience in front-end and back-end technologies. I strive to build functional, efficient, and visually appealing applications that solve real-world problems.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## 🛠️ Skills
 
-- Configure the top-level `parserOptions` property like this:
+### Front-End
+- HTML5, CSS3, JavaScript (ES6+), TypeScript
+- Frameworks/Libraries: React.js, Angular
+- Styling: Bootstrap, Tailwind CSS, Material-UI
+- Tools: Figma, Adobe XD, Webpack
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+### Back-End
+- Node.js
+- Databases: MySQL, PostgreSQL
+- API Design: RESTful APIs
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+### Other
+- Git/GitHub
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+---
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+## 🌟 Featured Projects
+
+### [Project 1: E-Commerce Platform](https://github.com/your-github-username/ecommerce-platform)
+**Tech Stack**: React.js, Node.js, MongoDB  
+- Designed and implemented a full-stack e-commerce platform.  
+- Features include user authentication, product filtering, and a secure payment system.  
+- Improved performance by optimizing API calls and reducing load times by 30%.
+
+---
+
+### [Project 2: Portfolio Website](https://github.com/your-github-username/portfolio-website)
+**Tech Stack**: React.js, Tailwind CSS  
+- Created a responsive portfolio website to showcase my work.  
+- Designed custom animations and interactive elements using CSS and React libraries.
+
+---
+
+### [Project 3: Task Management App](https://github.com/your-github-username/task-manager-app)
+**Tech Stack**: Node.js, Express, PostgreSQL  
+- Developed a task management tool with CRUD functionality.  
+- Integrated RESTful APIs and ensured secure user authentication.
+
+---
+
+## 📂 Other Projects
+- **[Weather App](https://github.com/your-github-username/weather-app)**: A real-time weather app using React.js and OpenWeather API.  
+- **[Chat Application](https://github.com/your-github-username/chat-app)**: Built with Socket.io and Express for real-time messaging.  
+
+---
+
+## 📫 Contact Me
+- **Email**: [Mauricek12d@gmail.com](mailto:Mauricek12d@gmail.com)
+- **GitHub**: [https://github.com/your-github-username](https://github.com/your-github-username)
+- **LinkedIn**: [https://www.linkedin.com/in/your-linkedin-username/](https://www.linkedin.com/in/your-linkedin-username/)
+
+---
+
+## 🌐 Live Portfolio
+Check out my live portfolio: [https://your-portfolio-url.com](https://your-portfolio-url.com)
