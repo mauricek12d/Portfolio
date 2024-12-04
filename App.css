@@ -1,3 +1,6 @@
+@import "@fortawesome/fontawesome-free/css/all.css";
+
+
 body {
   background-color: #333; /* Dark grey */
   color: white;          /* Ensure text is visible */

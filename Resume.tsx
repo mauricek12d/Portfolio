@@ -1,65 +1,53 @@
 import React from 'react';
-import './Resume.css';
+import './Resume.css'; // Optional for styling
 
-const Resume = () => {
-    return (
-        <div className="resume">
+const Resume: React.FC = () => {
+  return (
+    <div className="resume">
+      <h2 className="resume-title">Technical Experience</h2>
 
-            <section className="experience">
-                <h3>Experience</h3>
-                
-                <div className="job">
-                    <h4>CAD Engineer</h4>
-                    <p>Telecon, USA – Salt Lake City, UT</p>
-                    <p>November 2021 – April 2024</p>
-                    <ul>
-                        <li>Created designs for Altice One Fiber Optic Cables to feed into residential and commercial buildings.</li>
-                        <li>Designed floor plans, renderings, and elevations using AutoCAD software (Netwin and SpatialNet).</li>
-                        <li>Produced detailed construction and design plans for field engineers, ensuring technical solutions met client goals.</li>
-                        <li>Utilized tools like Microsoft Word and Excel alongside Netwin and SpatialNet software.</li>
-                    </ul>
-                </div>
+      <section className="front-end">
+        <h3>Front-End Development</h3>
+        <ul>
+          <li>Proficient in HTML5, CSS3, JavaScript (ES6+), and TypeScript.</li>
+          <li>Experience with modern frameworks and libraries such as React.js and Angular.</li>
+          <li>Implemented responsive designs using Bootstrap, Tailwind CSS, and Material-UI.</li>
+          <li>Skilled in creating dynamic, user-friendly interfaces with a focus on accessibility (WCAG standards).</li>
+          <li>Familiar with version control systems like Git and platforms like GitHub/GitLab.</li>
+        </ul>
+      </section>
 
-                <div className="job">
-                    <h4>Warehouse Manager</h4>
-                    <p>Hannon Floor Covering – Union, NJ</p>
-                    <p>January 2017 – November 2021</p>
-                    <ul>
-                        <li>Managed staff, prepared delivery schedules, and assigned specific duties.</li>
-                        <li>Responsible for ordering materials for flooring jobs.</li>
-                        <li>Established and implemented company policies, goals, objectives, and procedures.</li>
-                        <li>Oversaw all shipping and receiving of flooring materials.</li>
-                    </ul>
-                </div>
+      <section className="back-end">
+        <h3>Back-End Development</h3>
+        <ul>
+          <li>Experienced with server-side programming in Node.js.</li>
+          <li>Designed RESTful APIs and GraphQL endpoints for seamless client-server communication.</li>
+          <li>Worked with databases such as MySQL and PostgreSQLfor data storage and management.</li>
+          <li>Integrated third-party APIs and services into applications.</li>
+          <li>Knowledge of cloud platforms like AWS and Azure for deployment and scalability.</li>
+        </ul>
+      </section>
 
-                <div className="job">
-                    <h4>1st Assistant Manager</h4>
-                    <p>Regal Manahawkin 10 – Manahawkin, NJ</p>
-                    <p>February 2016 – November 2016</p>
-                    <ul>
-                        <li>Managed staff, prepared work schedules, and assigned specific duties.</li>
-                        <li>Administered personnel processes.</li>
-                        <li>Established and implemented company policies, goals, objectives, and procedures.</li>
-                        <li>Ensured customer satisfaction with cinema visits.</li>
-                    </ul>
-                </div>
+      <section className="tools-and-tech">
+        <h3>Tools & Technologies</h3>
+        <p>
+          VS Code, Webpack, ESLint, Slack, Zoom, Adobe XD
+        </p>
+      </section>
 
-                <div className="job">
-                    <h4>General Manager</h4>
-                    <p>Bow Tie Cinemas – Red Bank, NJ</p>
-                    <p>June 2013 – September 2014</p>
-                    <ul>
-                        <li>Managed staff, prepared work schedules, and assigned specific duties.</li>
-                        <li>Determined staffing requirements, interviewed, hired, and trained new employees.</li>
-                        <li>Administered personnel processes.</li>
-                        <li>Established and implemented company policies, goals, objectives, and procedures.</li>
-                        <li>Managed two cinemas simultaneously with a total staff of 40.</li>
-                        <li>Ensured customer satisfaction with cinema visits.</li>
-                    </ul>
-                </div>
-            </section>
-        </div>
-    );
-}
+       <section className="resume-download">
+        <h3>Download My Resume</h3>
+        <a
+          href="https://github.com/mauricek12d/Resume"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="btn btn-primary"
+        >
+          Download Resume
+        </a>
+      </section>
+    </div>
+  );
+};
 
 export default Resume;
