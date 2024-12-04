@@ -10,11 +10,16 @@
 }
 
 .about-me-text {
-    word-wrap: break-word;
-    white-space: normal;
-    overflow-wrap: break-word;
-    padding-left: 10px;
-    text-align: center;
+    overflow-wrap: break-word; /* Modern alternative to word-wrap */
+    white-space: normal; /* Allows wrapping */
+    padding: 10px; /* Adds padding on all sides */
+    text-align: center; /* Centers the text horizontally */
+    max-width: 600px; /* Optional: Limits the width of the text block */
+    margin: 0 auto; /* Centers the text block within its container */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px; 
+    line-height: 1.5; /* Sets the line height to 1.5 times the font size */
+    margin-bottom: -240px;
 }
 
 .profile-pic {
