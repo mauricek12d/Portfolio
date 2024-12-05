@@ -12,9 +12,9 @@ Hi, I'm Maurice Zuniga, a passionate developer with experience in front-end and 
 ## 🛠️ Skills
 
 ### Front-End
-- HTML5, CSS3, JavaScript (ES6+), TypeScript
-- Frameworks/Libraries: React.js, Angular
-- Styling: Bootstrap, Tailwind CSS, Material-UI
+- HTML5, JavaScript (ES6+), TypeScript
+- Frameworks/Libraries: React.js
+- Styling: Bootstrap, Tailwind CSS
 - Tools: Figma, Adobe XD, Webpack
 
 ### Back-End
@@ -29,40 +29,31 @@ Hi, I'm Maurice Zuniga, a passionate developer with experience in front-end and 
 
 ## 🌟 Featured Projects
 
-### [Project 1: E-Commerce Platform](https://github.com/your-github-username/ecommerce-platform)
-**Tech Stack**: React.js, Node.js, MongoDB  
-- Designed and implemented a full-stack e-commerce platform.  
-- Features include user authentication, product filtering, and a secure payment system.  
-- Improved performance by optimizing API calls and reducing load times by 30%.
+### [Project 1: Employee Database](https://github.com/mauricek12d/Employee-Database)
+**Tech Stack**: SQL, PostgreSQL, TypeScript 
+- Created a SQL File that shows information on Employees and lets you Add Employee information to it. 
 
 ---
 
-### [Project 2: Portfolio Website](https://github.com/your-github-username/portfolio-website)
-**Tech Stack**: React.js, Tailwind CSS  
-- Created a responsive portfolio website to showcase my work.  
-- Designed custom animations and interactive elements using CSS and React libraries.
+### [Project 2: Vehicle Builder](https://github.com/mauricek12d/Vehicle-Builder)
+**Tech Stack**: TypeScript 
+- Created a vehicle builder that is a class or set of classes designed to create and configure vehicle objects (e.g., cars, bikes, trucks) step by step. It allows for flexible and reusable construction of vehicles with various properties and configurations.
 
 ---
 
-### [Project 3: Task Management App](https://github.com/your-github-username/task-manager-app)
-**Tech Stack**: Node.js, Express, PostgreSQL  
-- Developed a task management tool with CRUD functionality.  
-- Integrated RESTful APIs and ensured secure user authentication.
-
+### [Project 3: README Generator](https://github.com/mauricek12d/README-Generator)
+**Tech Stack**: Node.js 
+- Developed a README Generator that populates a README after you finish a questionaire. 
 ---
 
-## 📂 Other Projects
-- **[Weather App](https://github.com/your-github-username/weather-app)**: A real-time weather app using React.js and OpenWeather API.  
-- **[Chat Application](https://github.com/your-github-username/chat-app)**: Built with Socket.io and Express for real-time messaging.  
-
----
+### [Project 4: Apollo Greek Tavern](https://github.com/mauricek12d/apollogreektavern)
+**Tech Stack**: HTML, CSS, JavaScript
+- Creating a Greek restaurant webpage in which includes HTML, CSS and JavaScript.
+- Bootstrap is used for the CSS framework.
+- Images are from google.com
 
 ## 📫 Contact Me
 - **Email**: [Mauricek12d@gmail.com](mailto:Mauricek12d@gmail.com)
-- **GitHub**: [https://github.com/your-github-username](https://github.com/your-github-username)
-- **LinkedIn**: [https://www.linkedin.com/in/your-linkedin-username/](https://www.linkedin.com/in/your-linkedin-username/)
+- **GitHub**: [https://github.com/mauricek12d](https://github.com/mauricek12d)
+- **LinkedIn**: [https://www.linkedin.com/in/maurice-zuniga424](https://www.linkedin.com/in/maurice-zuniga424/)
 
----
-
-## 🌐 Live Portfolio
-Check out my live portfolio: [https://your-portfolio-url.com](https://your-portfolio-url.com)
