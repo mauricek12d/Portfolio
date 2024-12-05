@@ -28,6 +28,14 @@ const Footer = () => {
                     >
                         <i className="fab fa-linkedin"></i>
                     </a>
+                    <a
+                        href="https://www.facebook.com/momo424/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="Facebook"
+                    >
+                        <i className="fab fa-facebook"></i>
+                    </a>
                 </div>
             </div>
         </footer>
